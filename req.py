@@ -8,4 +8,4 @@ requisição = requests.get(link)
 requi_dic = requisição.json()
 
 
-pprint.pprint(requi_dic[0]["resultados"])
+pprint.pprint(requi_dic[0]["resultados"][0]["series"])
